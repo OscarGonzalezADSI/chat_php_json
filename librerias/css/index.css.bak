@@ -83,7 +83,7 @@
 	text-align: left;
 }
 
-.chatPagina .mensajes .data .chat .foto{
+.chatPagina .mensajes .chat .foto{
     border-radius:60px; 
 	background-color:#ffffff; 
 	width:60px; 
