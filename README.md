@@ -27,5 +27,5 @@ oigonzalezp@gmail.com</br>
 Yeison Jose Rojas Zabala.</br>
 yeisonrojasyjrz98@gmail.com.</br>
 
-# Para proyectos:
-(+57)322-8858439 WhatsApp</br>
+# Proyectos:
+(+57) 322-8858439 WhatsApp</br>
