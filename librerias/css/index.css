@@ -1,0 +1,165 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.titulo{
+    width:315px;
+	height: 90%;
+	text-align: left;
+	background-color: #e1e1e1;
+}
+
+.chatPagina .chats{
+    float:left;
+    background-color:#ff0000;
+    width:235px;
+    background-color:#e1e1e1;
+	background-color: #fed9ff;
+	height: 90%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	text-align: center;
+}
+
+.chatPagina .chats::-webkit-scrollbar {
+    width: 12px;
+}
+
+.chatPagina .chats::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+.chatPagina .chats::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.chatPagina .chats .chat{
+    background-color:#dbdbdb;
+    width:228px;
+	height:72px;
+}
+
+.chatPagina .chats .chat .foto{
+    border-radius:60px; 
+	background-color:#ffffff; 
+	width:60px; 
+	height:60px;
+	float:left;
+	margin:5px;
+}
+
+.chatPagina .chats .chat .chat_nombre{
+	background-color:#dfc0c0;/**/
+    border-radius:60px; 
+	width:128px; 
+	height:20px;
+	float:left;
+	margin-top:5px;
+	text-align:left;
+	padding:2px;
+	padding-left:5px;
+}
+
+.chatPagina .chats .chat .hora{
+	background-color:#dfc0c0;/**/
+    border-radius:60px; 
+	width:128px; 
+	height:20px;
+	float:left;
+	margin-top:5px;
+	text-align:left;
+	padding:2px;
+	padding-left:5px;
+}
+
+.chatPagina .mensajes{
+    background-color:#ff0000;
+	width:228px;
+	background-color: #e1e1e1;
+	height: 90%;
+	text-align: left;
+}
+
+.chatPagina .mensajes .bandeja{
+    background-color:#ff0000;
+    width:228px; /*width:456px;*/
+	background-color: #e1e1e1;
+	height: 78%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	text-align: center;
+}
+
+.chatPagina .mensajes .bandeja::-webkit-scrollbar {
+    width: 12px;
+}
+
+.chatPagina .mensajes .bandeja::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+.chatPagina .mensajes .bandeja::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.chatPagina .mensajes .bandeja .mensaje{
+    width:130px;
+	margin:10px;	
+    border-radius:15px;
+	text-align: left;
+	padding:15px;
+}
+
+.chatPagina .mensajes .bandeja .mensaje .mispan{
+	display:block; 
+	text-align:right; 
+	margin-top:15px;
+}
+
+
+
+.chatPagina .mensajes .bandeja .mio{
+    float:right;
+	background-color:#87ffd5;
+}
+
+.chatPagina .mensajes .bandeja .suyo{
+    float:left;
+	background-color:#ffffff;
+}
+
+.chatPagina .mensajes textarea {
+  width:162px;
+  height: 45px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 60px;
+  background-color: #f8f8f8;
+  resize: none;
+  float:left;
+  margin-top:5px;
+  margin-left:9px;
+}
+
+.chatPagina .mensajes textarea::-webkit-scrollbar {
+    width: 0px;
+}
+
+.chatPagina .mensajes .btnEnviar{
+    border-radius:60px; 
+	background-color:#ffffff; 
+	width:41px; 
+	height:41px;
+    margin-left:5px;
+    margin-top:5px;
+	margin-right:6px;
+	float:right;
+    border: 2px solid #ccc;
+}
+
