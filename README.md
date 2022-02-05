@@ -1,7 +1,7 @@
 # chat_php_json
 Desarrollo de un chat en HTML, CSS, Javascript y PHP</br>
 HTML y CSS para la maquetación y estilos, </br>
-javascript para la interactividad y </br>
+Javascript para la interactividad y </br>
 PHP para el procesamiento de datos.
 
 # Equipo de trabajo:
